@@ -6,6 +6,14 @@ d3.json("samples.json").then(function(data) {
 });
 }
 
+//Charts values
+d3.json("samples.json").then(function(data) {
+  var samples = data.samples;
+  var otu_ids = sample.otu_ids;
+  var otu_labels = sample.otu_labels;
+  var values = sample.values;
+
+});
 
 
 
